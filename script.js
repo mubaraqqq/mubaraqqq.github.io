@@ -20,6 +20,8 @@ function formValidate(){
     } else if (message.match(regex)) {
         alert('Messages can\'t contain numbers');
          return false;
+    } else {
+        return true;
     }
     
 }
